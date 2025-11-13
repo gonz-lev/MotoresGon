@@ -1,0 +1,33 @@
+:root {
+  --color-azul: #0033A0;
+  --color-amarillo: #FFCC00;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: var(--color-azul);
+}
+
+footer {
+  background-color: var(--color-azul);
+}
+
+.btn-primary {
+  background-color: var(--color-amarillo);
+  color: var(--color-azul);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ffd633;
+  color: var(--color-azul);
+}
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
